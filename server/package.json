@@ -1,0 +1,15 @@
+{
+  "name": "temp-mail-smtp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mailparser": "^3.6.5",
+    "smtp-server": "^3.13.0"
+  }
+}
